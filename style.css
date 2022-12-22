@@ -1,0 +1,133 @@
+header {
+  max-width: 1600px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.nav { 
+  margin-right: auto;
+}
+
+.chevron{
+ height: 12px;
+}
+
+.dropdown {
+  margin-left: 10px;
+}
+.nav-link {
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+
+}
+
+.avatar-btn {
+  border: none;
+  background-color: transparent;
+  margin-inline: auto;
+  margin-left: 1000px;
+}
+
+.move-btn{
+  
+}
+
+.bell {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+.avatar1 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+ 
+}
+
+
+
+.container {
+  display: flex;
+  max-width: 1400px;
+  margin-inline: auto;
+}
+.hero-section{
+background-image: url("./assets/hero-img.png");
+background-repeat: no-repeat; 
+background-color: #7052f5;
+background-position: right 150px center;
+
+}
+
+
+
+.hero {
+margin-left: 25vh;
+position: relative;
+top: 80px;
+min-height: 50vh;
+line-height: 0.8em;
+font-size: 20px;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: #b9a9f9;
+}
+
+.hero-btns{
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #5fc89b;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
+.hero-btns:nth-of-type(2) {
+  background-color: white;
+  color: black;
+}
+
+.link-container {
+  background-color: white;
+  height: 10vh;
+}
+
+.link-text {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  line-height: 0;
+  text-align: justify;
+}
+
+.link-text p {
+  color: #5e5774;
+}
+
+.link-text img {
+  height: 12px;
+  padding-top: 25px;
+}
+
+.alignment{
+  display: flex;
+
+}
+
+.alignment-text {
+  display: inline;
+  padding-left: 20px;
+  text-align: justify;
+}
